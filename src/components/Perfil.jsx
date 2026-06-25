@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Perfil = () => {
+const Perfil = ({col}) => {
     return (
-        <div className="col-12 col-md-4">
+        <div className={`col-12 col-md-${col}`}>
             divPerfil
         </div>
     )

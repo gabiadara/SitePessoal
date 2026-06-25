@@ -1,31 +1,16 @@
 // src/components/App.jsx
-import { Link } from "react-router-dom";
 import Perfil from "../components/Perfil";
 import CoteudoInicial from "../components/CoteudoInicial";
+import Footer from "../components/Footer";
 const App = () => {
     return (
-        <>
-            {/* divExterna */}
+        <div className="container">
             <div className="row">
-                <Perfil />
-                <CoteudoInicial />
+                <Perfil col={4} />
+                <CoteudoInicial col={8} />
             </div>
-            {/* divFooter */}
-            <div>
-                divFoter
-            </div>
-        </>
+            <Footer />
+        </div>
     );
 };
 export default App;
-
-
-
-
-
-{/* <nav>
-        <Link to="/">Início</Link>
-        <Link to="/sobre">Sobre</Link>
-        <Link to="/contato">Contato</Link>
-      </nav>
-      <h1>Página inicial</h1> */}

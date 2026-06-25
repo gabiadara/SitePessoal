@@ -1,12 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
-const CoteudoInicial = () => {
+const CoteudoInicial = ({ col }) => {
     return (
-        <div className="col-12 col-md-8">
-            {/* NavBar */}
-            <div>
-                Navbar
-            </div>
+        <div className={`col-12 col-md-${col}`}>
+            <Navbar />
             {/* divApresentacao */}
             <div>
                 <div>
