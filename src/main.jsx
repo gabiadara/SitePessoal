@@ -1,6 +1,9 @@
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
 import App from './pages/App'
 import Sobre from './pages/Sobre'
 import Contato from './pages/Contato'
