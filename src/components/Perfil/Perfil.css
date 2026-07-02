@@ -4,7 +4,6 @@
     align-items: center;
     flex-direction: column;
     margin-top: 5vh;
-    border: 0.2px solid rgb(125, 123, 123);
     border-radius: 30px;
     padding: 3vh 0px 3vh 0px;
 }

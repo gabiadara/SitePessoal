@@ -1,14 +1,35 @@
 #ConteudoInicial{
-    border: 1px solid black;
-
-    padding: 3vh 3vw 3vh 3vw;
+    padding: 5vh 5vw 5vh 5vw;
 }
 
-h1, h2 {
+#ConteudoInicial h1, h2 {
     font-size: larger;
     font-weight: 400;
 }
-p {
+#ConteudoInicial h3, h4 {
+    font-size: large;
+    font-weight: 400;
+}
+#ConteudoInicial p {
     font-size: medium;
     font-weight: 350;
+}
+
+#ConteudoInicial img{
+    border-radius: 25px;
+    max-width: 8vw;
+    margin-right: 1vw;
+    height: auto;
+}
+
+.areasInteresse {
+    display: flex;
+    padding: 2vh 0px 3vh 0px;
+    justify-content: space-between;
+}
+
+.back, .front{
+    display: flex;
+    justify-content: left;
+    padding-right: 2vw;
 }

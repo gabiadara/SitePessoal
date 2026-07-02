@@ -6,7 +6,7 @@ const Contato = () => {
     return (
         <div className="container">
             <div className="row">
-                <Perfil col={4} />
+                <Perfil col={3} />
                 <ConteudoContato col={8} />
             </div>
             <Footer />

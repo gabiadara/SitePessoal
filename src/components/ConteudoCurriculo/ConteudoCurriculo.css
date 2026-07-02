@@ -1,0 +1,27 @@
+#ConteudoCurriculo {
+    padding: 3vh 3vw 3vh 3vw;
+}
+
+#ConteudoCurriculo h1, h2, h3, h4 {
+    font-size: larger;
+    font-weight: 400;
+}
+
+#ConteudoCurriculo p, li {
+    font-size: medium;
+    font-weight: 350;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.topicos {
+    padding: 2vh 2vw 2vh 2vw;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+}
