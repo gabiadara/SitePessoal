@@ -1,5 +1,5 @@
 // src/pages/Sobre.jsx
-import Perfil from "../components/Perfil";
+import Perfil from "../components/Perfil/Perfil";
 import Footer from "../components/Footer";
 import ConteudoSobre from "../components/ConteudoSobre";
 const Sobre = () => {

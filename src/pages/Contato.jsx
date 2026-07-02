@@ -1,5 +1,5 @@
 // src/pages/Contato.jsx
-import Perfil from "../components/Perfil";
+import Perfil from "../components/Perfil/Perfil";
 import Footer from "../components/Footer";
 import ConteudoContato from "../components/ConteudoContato";
 const Contato = () => {

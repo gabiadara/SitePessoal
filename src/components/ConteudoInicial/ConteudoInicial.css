@@ -1,0 +1,14 @@
+#ConteudoInicial{
+    border: 1px solid black;
+
+    padding: 3vh 3vw 3vh 3vw;
+}
+
+h1, h2 {
+    font-size: larger;
+    font-weight: 400;
+}
+p {
+    font-size: medium;
+    font-weight: 350;
+}

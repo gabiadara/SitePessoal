@@ -9,6 +9,6 @@ export default defineConfig(({ command, isPreview }) => ({
   ],
   base:
     command === "build" || isPreview === true
-      ? "/HelloReact/"
+      ? "/SitePessoal/"
       : "/",
 }));
