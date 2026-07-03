@@ -1,0 +1,13 @@
+#ConteudoPortifolio{
+    padding: 5vh 5vw 5vh 5vw;
+}
+
+#ConteudoPortifolio h1 {
+    font-size: larger;
+    font-weight: 400;
+}
+
+#ConteudoPortifolio h2, h3, h4, h5 {
+    font-size: large;
+    font-weight: 400;
+}

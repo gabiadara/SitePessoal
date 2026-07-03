@@ -13,19 +13,23 @@ const CoteudoInicial = ({ col }) => {
                 <p>Sou estudante de Análise e Desenvolvimento de Sistemas, com experiência em desenvolvimento de software adquirida durante estágio na área de Tecnologia da Informação.</p>
 
                 <h2>Áreas de Interesse</h2>
-                <div className='areasInteresse'>
-                    <div className='back' >
-                        <img src={imgBack} alt="Imagem backend" />
-                        <div>
-                            <h3>Desenvolvimento Front-end</h3>
-                            <p>HTML, CSS, JavaScript, React, Bootstrap</p>
+                <div className='row row-cols-1 row-cols-md-3 g-4'>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src={imgBack} class="card-img-top" alt="Imagem backend" />
+                            <div class="card-body">
+                                <h3 class="card-title">Desenvolvimento Front-end</h3>
+                                <p class="card-text">HTML, CSS, JavaScript, React, Bootstrap</p>
+                            </div>
                         </div>
                     </div>
-                    <div className='front' >
-                        <img src={imgFront} alt="Imagem frontend" />
-                        <div>
-                            <h4>Desenvolvimento Back-end</h4>
-                            <p>Java, Spring Boot, Spring WebFlux, Node, gRPC, REST APIs </p>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src={imgFront} class="card-img-top" alt="Imagem frontend" />
+                            <div class="card-body">
+                                <h4 class="card-title">Desenvolvimento Back-end</h4>
+                                <p class="card-text">Java, Spring Boot, Spring WebFlux, Node, gRPC, REST APIs</p>
+                            </div>
                         </div>
                     </div>
                 </div>

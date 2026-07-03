@@ -6,8 +6,9 @@
     margin-top: 5vh;
     border-radius: 30px;
     padding: 3vh 0px 3vh 0px;
+    height: fit-content;
 }
-img {
+#perfil img {
     width: 60%;
     height: auto;
     border-radius: 100%;

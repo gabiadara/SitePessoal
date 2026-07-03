@@ -6,14 +6,14 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import App from './pages/App'
-import Sobre from './pages/Sobre'
-import Contato from './pages/Contato'
+import Curriculo from './pages/Curriculo'
+import Portifolio from './pages/Portifolio'
 
 const router = createBrowserRouter(
   [
     { path: "/", element: <App /> },
-    { path: "/sobre", element: <Sobre /> },
-    { path: "/contato", element: <Contato /> },
+    { path: "/curriculo", element: <Curriculo /> },
+    { path: "/portifolio", element: <Portifolio /> },
   ],
   {
     // npm run dev → ambiente local → usa "/"

@@ -1,16 +1,15 @@
-// src/pages/Contato.jsx
 import Perfil from "../components/Perfil/Perfil";
 import Footer from "../components/Footer";
-import ConteudoContato from "../components/ConteudoContato";
-const Contato = () => {
+import ConteudoCurriculo from "../components/ConteudoCurriculo/ConteudoCurriculo";
+const Curriculo = () => {
     return (
         <div className="container">
             <div className="row">
                 <Perfil col={3} />
-                <ConteudoContato col={8} />
+                <ConteudoCurriculo col={8} />
             </div>
             <Footer />
         </div>
     );
 };
-export default Contato;
+export default Curriculo;

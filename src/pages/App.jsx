@@ -6,7 +6,7 @@ import '../App.css';
 
 const App = () => {
     return (
-        <div className="container">
+        <div className="container app">
             <div className="row">
                 <Perfil col={3} />
                 <CoteudoInicial col={8} />
