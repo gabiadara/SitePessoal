@@ -1,4 +1,3 @@
-// src/components/App.jsx
 import Perfil from "../components/Perfil/Perfil";
 import CoteudoInicial from "../components/ConteudoInicial/ConteudoInicial";
 import Footer from "../components/Footer";

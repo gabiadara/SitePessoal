@@ -7,7 +7,7 @@ const ConteudoPortifolio = ({ col }) => {
         <div className={`col-12 col-md-${col}`}>
             <Navbar />
             <div id='ConteudoPortifolio'>
-                <h1>Apresentação</h1>
+                <h1>Portifolio</h1>
                 <div class="row">
                     <div class="col-sm-6 mb-3 mb-sm-0">
                         <div class="card">

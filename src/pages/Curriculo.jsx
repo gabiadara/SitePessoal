@@ -1,6 +1,7 @@
 import Perfil from "../components/Perfil/Perfil";
 import Footer from "../components/Footer";
 import ConteudoCurriculo from "../components/ConteudoCurriculo/ConteudoCurriculo";
+
 const Curriculo = () => {
     return (
         <div className="container">
